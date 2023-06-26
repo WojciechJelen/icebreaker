@@ -17,8 +17,6 @@ def scrape_linkedin_profile(linkedin_profile_url: str):
 
     data = response.json()
 
-    print(data)
-
     data = {
         k: v
         for k, v in data.items()
